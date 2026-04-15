@@ -1,0 +1,7 @@
+p, admin, /api/v1/*, (GET|POST|PUT|DELETE)
+p, dev, /api/v1/tasks/*, (GET|POST|PUT)
+p, dev, /api/v1/preview, POST
+p, viewer, /api/v1/*, GET
+g, admin, admin
+g, dev, dev
+g, viewer, viewer
